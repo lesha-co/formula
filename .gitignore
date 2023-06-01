@@ -1,0 +1,7 @@
+node_modules/
+dist/
+demo/demodist/*
+.vscode/
+.npmrc
+*.js
+.DS_Store

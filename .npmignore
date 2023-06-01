@@ -1,0 +1,6 @@
+src/*
+demo/*
+.vscode/*
+tsconfig.json
+.gitlab-ci.yml
+out.js
