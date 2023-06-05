@@ -16,5 +16,6 @@ deploy:
     - npm config set https-proxy $PROXY_HOST_MSK
     - npm config set noproxy .pvt
     - npm ci
+    - npm run build
     - npm run test
     - npm publish

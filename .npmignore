@@ -1,6 +1,10 @@
 src/*
-demo/*
+dist/*
+dist-lib/*
 .vscode/*
 tsconfig.json
+tsconfig.lib.json
 .gitlab-ci.yml
 out.js
+konstruktor.*
+.prettierrc

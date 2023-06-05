@@ -1,6 +1,5 @@
 {
   "compilerOptions": {
-    "outDir": "./dist",
     "target": "es2022" /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */,
     "jsx": "react-jsx" /* Specify what JSX code is generated. */,
     "module": "CommonJS",
@@ -13,5 +12,5 @@
     "sourceMap": true,
     "declaration": true
   },
-  "exclude": ["node_modules", "dist", "demo"]
+  "exclude": ["node_modules", "dist", "lib", "konstruktor.ts"]
 }

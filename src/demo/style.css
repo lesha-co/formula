@@ -1,0 +1,40 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 600px;
+  margin: auto;
+}
+
+.Wizard {
+  background-color: green;
+  padding: 1em;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.CursorMarker {
+  position: relative;
+  height: 1em;
+  outline: none;
+  width: 8px;
+  text-align: center;
+  &.active {
+    .CursorMarker__cursor {
+      background: blue;
+    }
+  }
+  .CursorMarker__cursor {
+    display: inline-block;
+    height: 100%;
+    width: 2px;
+  }
+}
+
+.Formula {
+  display: flex;
+  border: 1px solid black;
+  position: relative;
+  row-gap: 4px;
+  flex-wrap: wrap;
+}
